@@ -37,3 +37,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           pwd
+          ls -alh
+      - name: Run a multi-line script
+        run: |
+          bash script.sh
